@@ -44,6 +44,13 @@ $ docker-compose run django python add_products.py
 
 - The Web App will run on: http://0.0.0.0:8000/
 
+
+## Tests:
+- Additionally, you can run tests 
+```bash
+$ docker-compose run django pytest -v
+```
+
 ## API:
 
 Supports GET, POST, requests for interaction with applications

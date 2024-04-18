@@ -33,7 +33,7 @@ class TestAPI:
         assert review.review == "This is a test review"
 
     def test_all_products(self, api_client):
-        url = reverse("all-products")
+        url = reverse("home")
         response = api_client.get(url)
         assert response.status_code == status.HTTP_200_OK
 
